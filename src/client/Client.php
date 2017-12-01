@@ -26,6 +26,11 @@ class Client implements ClientInterface
     /**
      * @var string
      */
+    private $appToken;
+
+    /**
+     * @var string
+     */
     private $baseUri;
 
     /**
@@ -33,9 +38,10 @@ class Client implements ClientInterface
      * @param $accessToken
      * @param $baseUri
      */
-    public function __construct($accessToken, $baseUri = self::BASE_URI)
+    public function __construct($accessToken, $appToken, $baseUri = self::BASE_URI)
     {
         $this->accessToken = $accessToken;
+        $this->appToken = $appToken;
         $this->baseUri = $baseUri;
     }
 
@@ -101,7 +107,8 @@ class Client implements ClientInterface
     {
         $resource = new Curl();
         $query = $this->query($params);
-        $resource->addHeader(sprintf('Access-Token: %s', $this->accessToken));
+        $resource->addHeader(sprintf('access_token: %s', $this->accessToken));
+        $resource->addHeader(sprintf('app_token: %s', $this->appToken));
         $resource->addHeader('Content-type: application/json');
         $resource->setMethod($method);
         $url = sprintf('%s%s%s', $this->baseUri, $route->build(), $query);

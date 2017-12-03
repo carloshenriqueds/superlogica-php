@@ -9,7 +9,7 @@ class Checkout
     /**
      * @var string
      */
-    const ROUT_CHECKOUT = '/financeiro/checkout';
+    const ROUT_CHECKOUT = '/checkout';
 
     /**
      * @var ClientInterface

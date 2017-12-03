@@ -11,7 +11,7 @@ class Client implements ClientInterface
     /**
      * @var string
      */
-    const BASE_URI = 'https://api.superlogica.net/v2';
+    const BASE_URI = 'https://api.superlogica.net/v2/financeiro';
 
     /**
      * @var string

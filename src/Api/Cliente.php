@@ -87,7 +87,7 @@ class Cliente
             'ID_SACADO_SAC' => $idCliente,
             'DT_DESATIVACAO_SAC' => $dataDesativacao,
             'FL_INVALIDARCOBSFUTURAS_SAC' => $invalida
-            ]
+        ];
         return $this->client->put(
             new Route([self::ROTA_CLIENTE]), [$data]);
     }

@@ -1,6 +1,6 @@
 <?php
 namespace SuperLogica;
-use SuperLogica\Handler\Http;
+use SuperLogica\handler\Http;
 class ClientTest extends \PHPUnit_Framework_TestCase
 {
     /**

@@ -1,5 +1,5 @@
 <?php
-namespace SuperLogica\Handler;
+namespace SuperLogica\handler;
 class CurlTest extends \PHPUnit_Framework_TestCase
 {
     /**

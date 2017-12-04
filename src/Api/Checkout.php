@@ -9,7 +9,7 @@ class Checkout
     /**
      * @var string
      */
-    const ROUT_CHECKOUT = '/checkout';
+    const ROTA_CHECKOUT = '/checkout';
 
     /**
      * @var ClientInterface
@@ -26,13 +26,13 @@ class Checkout
     }
 
     /**
-     * Envia um audio para um número destino
+     * Checkout / Contratação / Contratar um plano, cadastrando o cliente com sua senha de acesso e forma de pagamento
      * @param array $data
      * @return mixed
      */
-    public function enviar($data)
+    public function contratar($data)
     {
         return $this->client->post(
-            new Route([self::ROTA_AUDIO]), [$data]);
+            new Route([self::ROTA_CHECKOUT]), [$data]);
     }
 }

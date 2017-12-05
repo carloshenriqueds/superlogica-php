@@ -1,7 +1,7 @@
 <?php
 namespace SuperLogica\Handler;
 
-use SuperLogica\client\ClientException;
+use SuperLogica\Client\ClientException;
 
 class Curl
 {

@@ -1,7 +1,7 @@
 <?php
-namespace SuperLogica\client;
-use SuperLogica\handler\Http;
-use SuperLogica\route\Route;
+namespace SuperLogica\Client;
+use SuperLogica\Handler\Http;
+use SuperLogica\Route\Route;
 class ClientTest extends \PHPUnit_Framework_TestCase
 {
     /**

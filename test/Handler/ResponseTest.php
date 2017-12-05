@@ -1,5 +1,5 @@
 <?php
-namespace SuperLogica\handler;
+namespace SuperLogica\Handler;
 class ResponselTest extends \PHPUnit_Framework_TestCase
 {
     /**

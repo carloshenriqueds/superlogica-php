@@ -1,4 +1,4 @@
 <?php
-namespace SuperLogica\client;
+namespace SuperLogica\Client;
 
 class ClientException extends \Exception {}

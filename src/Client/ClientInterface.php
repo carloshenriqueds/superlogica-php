@@ -1,5 +1,5 @@
 <?php
-namespace SuperLogica\client;
+namespace SuperLogica\Client;
 
 /**
  * ClientInterface

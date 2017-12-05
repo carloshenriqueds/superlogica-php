@@ -1,8 +1,8 @@
 <?php
 
 namespace SuperLogica\Api;
-use SuperLogica\route\Route;
-use SuperLogica\client\ClientInterface;
+use SuperLogica\Route\Route;
+use SuperLogica\Client\ClientInterface;
 
 class Cliente
 {

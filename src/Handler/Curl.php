@@ -1,5 +1,5 @@
 <?php
-namespace SuperLogica\handler;
+namespace SuperLogica\Handler;
 
 use SuperLogica\client\ClientException;
 

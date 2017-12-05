@@ -1,8 +1,8 @@
 <?php
 
 namespace SuperLogica\Api;
-use SuperLogica\Route;
-use SuperLogica\ClientInterface;
+use SuperLogica\route\Route;
+use SuperLogica\client\ClientInterface;
 
 class Checkout
 {

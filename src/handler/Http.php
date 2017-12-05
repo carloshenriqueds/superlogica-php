@@ -1,5 +1,5 @@
 <?php
-namespace SuperLogica\Handler;
+namespace SuperLogica\handler;
 
 final class Http
 {

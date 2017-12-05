@@ -1,8 +1,8 @@
 <?php
-namespace SuperLogica\Client;
+namespace SuperLogica\client;
 
-use SuperLogica\Handler\Curl;
-use SuperLogica\Handler\Http;
+use SuperLogica\handler\Curl;
+use SuperLogica\handler\Http;
 use DI\ContainerBuilder;
 use DI\NotFoundException;
 

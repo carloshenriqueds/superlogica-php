@@ -1,6 +1,5 @@
 <?php
-namespace SuperLogica;
-use SuperLogica\Route\Route;
+namespace SuperLogica\route;
 
 class RouteTest extends \PHPUnit_Framework_TestCase
 {

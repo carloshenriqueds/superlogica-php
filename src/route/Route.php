@@ -1,5 +1,5 @@
 <?php
-namespace Route\SuperLogica;
+namespace SuperLogica\Route;
 
 class Route implements RouteInterface
 {

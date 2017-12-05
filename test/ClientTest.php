@@ -1,6 +1,7 @@
 <?php
-namespace SuperLogica;
+namespace SuperLogica\Client;
 use SuperLogica\Handler\Http;
+use SuperLogica\Route\Route;
 class ClientTest extends \PHPUnit_Framework_TestCase
 {
     /**
@@ -20,15 +21,6 @@ class ClientTest extends \PHPUnit_Framework_TestCase
         $this->assertAttributeSame('my-app-token', 'appToken', $this->client);
     }
     
-    /**
-     * @test
-     */
-    public function methodBuildRequestShouldInicializeTheCurlResource()
-    {
-        $route = new Route();
-        $resource = $this->client->buildRequest($route, Http::GET);
-        $this->assertEquals('object', gettype($resource));
-    }
     /**
      * @test
      */

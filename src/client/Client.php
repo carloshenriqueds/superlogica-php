@@ -1,5 +1,5 @@
 <?php
-namespace Client\SuperLogica;
+namespace SuperLogica\Client;
 
 use SuperLogica\Handler\Curl;
 use SuperLogica\Handler\Http;
